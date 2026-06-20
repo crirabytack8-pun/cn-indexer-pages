@@ -1,2 +1,14 @@
 # cn-indexer-pages
-HTML page archive and documentation
+
+页面内容归档仓库
+
+这里收集多个独立页面，方便在同一个仓库中管理。
+
+## 输出文件
+
+- 发布产物会保存为 HTML
+- 说明文本会保存在 README
+
+## 管理说明
+
+本仓库适合保存多个独立页面，不依赖额外构建流程。

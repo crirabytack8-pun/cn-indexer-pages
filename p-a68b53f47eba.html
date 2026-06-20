@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>华体会站点档案 - 域名摘要与访问路径整理</title>
+<meta name="description" content="围绕品牌词华体会整理的站点档案页，包含域名摘要、访问路径、信息核对建议与常见问题解答，方便在品牌导航场景下快速识别。">
+<style>
+  :root{
+    --paper:#fbf7f0;
+    --paper-2:#f4ece0;
+    --ink:#3c3530;
+    --ink-soft:#6b6157;
+    --gold:#a9803f;
+    --gold-soft:#c9a86a;
+    --line:#e4d8c6;
+    --card:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.75;
+    font-size:16px;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:28px 18px 60px;}
+  header.masthead{
+    border:1px solid var(--line);
+    background:linear-gradient(180deg,#fffdf9,var(--paper-2));
+    border-radius:14px;
+    padding:30px 26px 26px;
+    position:relative;
+  }
+  header.masthead::before{
+    content:"";
+    position:absolute;left:26px;top:0;
+    width:54px;height:4px;background:var(--gold);
+    border-radius:0 0 4px 4px;
+  }
+  .tagline{
+    display:inline-block;
+    font-size:13px;letter-spacing:1px;
+    color:var(--gold);
+    border:1px solid var(--gold-soft);
+    padding:3px 11px;border-radius:20px;
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:27px;
+    margin:6px 0 12px;
+    line-height:1.4;
+  }
+  .lead{color:var(--ink-soft);margin:0;}
+  .meta-row{
+    margin-top:20px;
+    display:flex;flex-wrap:wrap;gap:10px;
+    font-size:13px;color:var(--ink-soft);
+  }
+  .meta-row span{
+    background:#fff;
+    border:1px solid var(--line);
+    padding:5px 12px;border-radius:8px;
+  }
+
+  section{margin-top:34px;}
+  h2{
+    font-size:20px;
+    margin:0 0 14px;
+    padding-left:12px;
+    border-left:4px solid var(--gold-soft);
+  }
+  p{margin:0 0 14px;}
+
+  .archive-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+  }
+  .archive-card dl{
+    margin:0;
+    display:grid;
+    grid-template-columns:130px 1fr;
+  }
+  .archive-card dt,.archive-card dd{
+    padding:12px 16px;
+    border-bottom:1px solid var(--line);
+    margin:0;
+  }
+  .archive-card dt{
+    background:var(--paper-2);
+    color:var(--ink-soft);
+    font-size:14px;
+  }
+  .archive-card dd{word-break:break-all;}
+  .archive-card dl > :nth-last-child(1),
+  .archive-card dl > :nth-last-child(2){border-bottom:none;}
+
+  .path-list{
+    list-style:none;padding:0;margin:0;
+    display:grid;gap:12px;
+  }
+  .path-list li{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:3px solid var(--gold-soft);
+    border-radius:10px;
+    padding:14px 16px;
+  }
+  .path-list b{color:var(--gold);}
+
+  .check{
+    display:grid;gap:14px;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  }
+  .check div{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:16px;
+  }
+  .check h3{margin:0 0 8px;font-size:16px;color:var(--gold);}
+  .check p{margin:0;font-size:14px;color:var(--ink-soft);}
+
+  .faq details{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:6px 16px;
+    margin-bottom:12px;
+  }
+  .faq summary{
+    cursor:pointer;
+    font-weight:600;
+    padding:10px 0;
+    list-style:none;
+  }
+  .faq summary::-webkit-details-marker{display:none;}
+  .faq summary::before{content:"问 ";color:var(--gold);}
+  .faq p{padding:0 0 12px;color:var(--ink-soft);font-size:15px;}
+
+  a{color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-soft);}
+  a:hover{color:#8a6531;}
+
+  .note{
+    margin-top:34px;
+    background:var(--paper-2);
+    border:1px dashed var(--gold-soft);
+    border-radius:10px;
+    padding:18px 20px;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+  footer{
+    margin-top:30px;
+    text-align:center;
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+  @media(max-width:520px){
+    .archive-card dl{grid-template-columns:100px 1fr;}
+    h1{font-size:23px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="tagline">品牌导航 · 站点档案</span>
+    <h1>华体会 站点档案：域名摘要与访问路径</h1>
+    <p class="lead">这是一份围绕品牌词 <a href="https://cn-indexer-hth.com.cn">华体会</a> 整理的资料页，把和该站点相关的基础信息、访问路径与识别要点放在一起，方便你在搜索后快速确认自己看到的是同一个对象。</p>
+    <div class="meta-row">
+      <span>资料编号：4296</span>
+      <span>分类：品牌导航</span>
+      <span>状态：人工整理</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>站点说明</h2>
+    <p>很多人搜索“华体会”时，得到的结果往往散落在不同页面，很难一眼判断哪条信息对应的是哪个站点。本页的做法是把可公开核对的基础字段集中列出，让你以“档案”的方式去对照，而不是依赖单一标题或截图。</p>
+    <p>就品牌导航这个角度来说，导航的价值在于减少混淆：清楚地标注名称、域名和入口，比堆砌大量描述更有用。下面这张表格记录了本页对应的核心信息。</p>
+    <div class="archive-card">
+      <dl>
+        <dt>品牌名称</dt>
+        <dd>华体会</dd>
+        <dt>主域名</dt>
+        <dd>cn-indexer-hth.com.cn</dd>
+        <dt>完整地址</dt>
+        <dd><a href="https://cn-indexer-hth.com.cn">https://cn-indexer-hth.com.cn</a></dd>
+        <dt>资料角度</dt>
+        <dd>品牌导航 / 站点识别</dd>
+        <dt>页面类型</dt>
+        <dd>站点档案页（域名摘要、访问路径、识别建议、更新时间）</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <h2>页面导航</h2>
+    <p>为了让你按需查阅，本页按下列顺序组织。每一节解决一个具体问题，可以单独跳读。</p>
+    <ul class="path-list">
+      <li><b>域名摘要</b>：确认你看到的名称与域名是否一致，参考上方档案表。</li>
+      <li><b>访问路径</b>：从哪里进入，地址栏应当显示什么，见下文“信息核对”。</li>
+      <li><b>识别建议</b>：遇到相似名称时如何分辨，避免被拼写接近的地址误导。</li>
+      <li><b>问题解答</b>：把常被问到的疑问集中放在 FAQ 区。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>信息核对</h2>
+    <p>核对时不必依赖记忆，逐项对照下面几个要点即可。这也是品牌导航里最实用的一步。</p>
+    <div class="check">
+      <div>
+        <h3>看完整地址</h3>
+        <p>以 <a href="https://cn-indexer-hth.com.cn">cn-indexer-hth.com.cn</a> 为准，注意区分横线和拼写顺序，复制时尽量使用完整 https 链接。</p>
+      </div>
+      <div>
+        <h3>看名称一致</h3>
+        <p>页面标注的名称应当是“华体会”，与本档案记录相符再继续浏览。</p>
+      </div>
+      <div>
+        <h3>看协议前缀</h3>
+        <p>地址栏前缀应为 https，留意是否有多余字符或被改写的子目录。</p>
+      </div>
+      <div>
+        <h3>留存路径</h3>
+        <p>把确认无误的地址自行收藏，下次直接从收藏进入，减少每次重新搜索的出错概率。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>问题解答</h2>
+    <details open>
+      <summary>这个页面是华体会的官方页面吗？</summary>
+      <p>本页是一份资料整理页，目的是帮助识别与核对，不代表任何官方身份认定。是否为官方页面，请以你自身掌握的可信渠道为准，本页只提供可对照的公开字段。</p>
+    </details>
+    <details>
+      <summary>我怎么确认访问的地址没错？</summary>
+      <p>把地址栏内容与本页档案表里的 cn-indexer-hth.com.cn 逐字符比对，重点看横线位置和单词顺序。完整写法是 <a href="https://cn-indexer-hth.com.cn">https://cn-indexer-hth.com.cn</a>。</p>
+    </details>
+    <details>
+      <summary>遇到名称相近的站点该怎么办？</summary>
+      <p>名称相近时，以域名为准而非以标题为准。标题文字容易模仿，域名相对固定。建议参考 <a href="https://cn-indexer-hth.com.cn">华体会</a> 的相关说明再做判断。</p>
+    </details>
+    <details>
+      <summary>这份资料多久更新一次？</summary>
+      <p>信息会在发现变动时整理修订。具体时间见页面底部的更新说明，使用时请结合当前实际情况。</p>
+    </details>
+  </section>
+
+  <div class="note">
+    <strong>维护说明：</strong>本页内容由人工整理，侧重于品牌导航场景下的识别与核对，不包含交易、注册或承诺类内容。所列字段为可公开核对的基础信息，如与实际情况存在出入，请以你能直接确认的来源为准。资料编号 4296 仅用于内部归档区分。
+  </div>
+
+  <footer>
+    <p>更新时间：2025 年第二季度整理 · 资料角度：品牌导航</p>
+    <p>相关地址：<a href="https://cn-indexer-hth.com.cn">华体会</a> · <a href="https://cn-indexer-hth.com.cn">https://cn-indexer-hth.com.cn</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
